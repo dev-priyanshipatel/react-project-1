@@ -1,0 +1,180 @@
+:root{
+  --primary-grey : #576071;
+  --primary-green :#448C74;
+  --primary-black :#121519;
+  --primary-yellow : #EDCB50;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* list-style-type: none; */
+}
+
+body{
+  background-color: #f6f9fc;
+}
+
+/* header style */
+
+header{
+  position: sticky;
+}
+
+.logo-text{
+  color: var(--primary-black);
+}
+
+.navbar-nav{
+  flex-direction: row;
+}
+
+.li-color{
+  color: var(--primary-grey);
+  font-weight: 600;
+}
+
+.li-color:hover{
+  color: var(--primary-green);
+}
+
+.btn{
+  background-color: var(--primary-green);
+  color: white;
+}
+
+.btn:hover{
+  background-color: #448C74;
+  color: white;
+}
+
+/* client style  */
+
+.client-container{
+  background-color: white;
+}
+
+.client-title{
+  color: var(--primary-green);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.client-des{
+  color: var(--primary-grey);
+  font-weight: 500;
+}
+
+/* service style */
+.service-card{
+  position: relative;
+}
+
+.service-title-color{
+  color: var(--primary-black);
+}
+
+.service-des-color{
+  color: var(--primary-grey);
+}
+
+.text-warning{
+  color: #EDCB50;
+}
+
+.arrow-wrapper {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+}
+
+.circle-btn {
+  width: 56px;
+  height: 56px;
+  border: 2px solid #4ba190; 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: #4ba190;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.service-card:hover{
+  cursor: pointer;
+  background-color: var(--primary-green);
+}
+
+.service-card:hover .service-title-color{
+    color: white;
+}
+
+.service-card:hover .service-des-color{
+  color: rgba(255, 255, 255, 0.633);
+}
+
+.service-card:hover .circle-btn{
+  border: 2px solid white;
+  color: white;
+}
+
+/* casestudy style */
+
+.bg-green{
+  background-color: var(--primary-green);
+}
+
+.bg-light-green{
+  background-color: #e4eeee;
+}
+
+.green-text-color{
+  color: #448c74;
+}
+
+.green-des-color{
+  color: #cce0d9;
+}
+
+/* business style  */
+
+.btn-color{
+  background-color: #f6f9fc;
+}
+
+.inpt-bg-color{
+  background-color: #448C74;
+}
+
+.input-placeholder::placeholder{
+  color: var(--primary-green);
+}
+
+.bs-input-placeholder::placeholder{
+  color: white;
+}
+
+/* footer style  */
+
+.grey-bg-color{
+  background-color: #edf1f5;
+}
+
+@media(max-width :992px) {
+    nav{
+      display: none;
+    }
+
+    .industry-data{
+      padding: 2rem !important;                                   
+    }
+
+}
+
+@media(maxx-width :768px){
+    
+}
