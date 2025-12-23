@@ -19,7 +19,7 @@ body{
 /* header style */
 
 header{
-  position: sticky;
+  position: fixed;
 }
 
 .logo-text{
